@@ -1,12 +1,12 @@
-Azure Virtual Machine Setup Documentation
-Initial Setup
+## Azure Virtual Machine Setup Documentation
+### Initial Setup
 
 1. Created account at portal.azure.com using HAMK student credentials
 2. Navigated to Azure Portal homepage (portal.azure.com/#home)
 3. Selected "Create a resource"
 4. Clicked "Create" under virtual machine option
 
-Basic Configuration
+### Basic Configuration
 
 * Resource Group: robotics
 * Virtual Machine Name: Linux management
@@ -16,7 +16,7 @@ Basic Configuration
 * VM Architecture: x64
 * Size: Standard_B2ls_v2 (2 vcpus, 4 GiB memory)
 
-Authentication Settings
+### Authentication Settings
 
 * Authentication Type: SSH public key
 * Username: mrrafsan
@@ -30,13 +30,13 @@ Authentication Settings
 
 
 
-Disk Configuration
+### Disk Configuration
 
 OS Disk Type: Standard SSD (locally-redundant storage)
 Delete with VM: Enabled
 Key Management: Platform-managed key
 
-Networking
+### Networking
 
 Used default networking settings
 Delete NIC when VM is deleted: Enabled
@@ -47,7 +47,7 @@ DNS name label: mrrafsan-lab-robotics
 
 
 
-Management
+### Management
 
 Auto-shutdown: Enabled
 
@@ -57,7 +57,7 @@ Email Notification: Disabled
 
 
 
-Final Steps
+### Final Steps
 
 Reviewed configuration
 Created VM
