@@ -28,8 +28,6 @@
 * * HTTPS (443)
 * * SSH (22)
 
-
-
 ### Disk Configuration
 
 * OS Disk Type: Standard SSD (locally-redundant storage)
@@ -44,16 +42,12 @@
 * DNS Configuration:
 * * DNS name label: mrrafsan-lab-robotics
 
-
-
 ### Management
 
 * Auto-shutdown: Enabled
 * Timezone: Helsinki
 * Shutdown Time: 5:00 PM
 * Email Notification: Disabled
-
-
 
 ### Final Steps
 
