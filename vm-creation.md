@@ -24,10 +24,9 @@ Authentication Settings
 * SSH Key Type: RSA SSH Format
 * Key Pair Name: linux-management_key
 * Inbound Ports:
-
-HTTP (80)
-HTTPS (443)
-SSH (22)
+* * HTTP (80)
+* * HTTPS (443)
+* * SSH (22)
 
 
 
