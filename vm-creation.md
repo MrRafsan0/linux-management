@@ -8,22 +8,22 @@ Initial Setup
 
 Basic Configuration
 
-*Resource Group: robotics
-*Virtual Machine Name: Linux management
-*Region: (Europe) North Europe
-*Availability Options: No infrastructure redundancy required
-*Image: Ubuntu Server 24.04 LTS - x64 Gen2
-*VM Architecture: x64
-*Size: Standard_B2ls_v2 (2 vcpus, 4 GiB memory)
+* Resource Group: robotics
+* Virtual Machine Name: Linux management
+* Region: (Europe) North Europe
+* Availability Options: No infrastructure redundancy required
+* Image: Ubuntu Server 24.04 LTS - x64 Gen2
+* VM Architecture: x64
+* Size: Standard_B2ls_v2 (2 vcpus, 4 GiB memory)
 
 Authentication Settings
 
-*Authentication Type: SSH public key
-*Username: mrrafsan
-*SSH Public Key Source: Generate new key pair
-*SSH Key Type: RSA SSH Format
-*Key Pair Name: linux-management_key
-*Inbound Ports:
+* Authentication Type: SSH public key
+* Username: mrrafsan
+* SSH Public Key Source: Generate new key pair
+* SSH Key Type: RSA SSH Format
+* Key Pair Name: linux-management_key
+* Inbound Ports:
 
 HTTP (80)
 HTTPS (443)
