@@ -32,32 +32,30 @@
 
 ### Disk Configuration
 
-OS Disk Type: Standard SSD (locally-redundant storage)
-Delete with VM: Enabled
-Key Management: Platform-managed key
+* OS Disk Type: Standard SSD (locally-redundant storage)
+* Delete with VM: Enabled
+* Key Management: Platform-managed key
 
 ### Networking
 
-Used default networking settings
-Delete NIC when VM is deleted: Enabled
-Accelerated Networking: Not available
-DNS Configuration:
-
-DNS name label: mrrafsan-lab-robotics
+* Used default networking settings
+* Delete NIC when VM is deleted: Enabled
+* Accelerated Networking: Not available
+* DNS Configuration:
+* * DNS name label: mrrafsan-lab-robotics
 
 
 
 ### Management
 
-Auto-shutdown: Enabled
-
-Timezone: Helsinki
-Shutdown Time: 5:00 PM
-Email Notification: Disabled
+* Auto-shutdown: Enabled
+* Timezone: Helsinki
+* Shutdown Time: 5:00 PM
+* Email Notification: Disabled
 
 
 
 ### Final Steps
 
-Reviewed configuration
-Created VM
+- Reviewed configuration
+- Created VM
