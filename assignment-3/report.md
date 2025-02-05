@@ -57,11 +57,14 @@ __Step 1:__ First, we created the projekti group and added users to it:
 ![image1](https://github.com/MrRafsan0/linux-management/blob/main/assignment-3/images/1.png)
 
 __Step 2:__ Set the SGID bit and proper permissions:
+
 ![image2](https://github.com/MrRafsan0/linux-management/blob/main/assignment-3/images/2.png)
 
 __Step 3:__ Verified the permissions were set correctly:
+
 ![image3](https://github.com/MrRafsan0/linux-management/blob/main/assignment-3/images/3.png)
 __Step 4:__ Tested file creation and access with both users:
+
 ![image4](https://github.com/MrRafsan0/linux-management/blob/main/assignment-3/images/4.png)
 
 The test demonstrates that:
