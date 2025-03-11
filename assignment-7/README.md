@@ -127,8 +127,33 @@ __Commnad:__
 ```
 sudo multipass launch --name cloud-init --cloud-init cloud-init.yml
 ```
+![](img/9.png)
 Then accessed shell using
 
 ```
 sudo multipass shell cloud-init
+```
+![](img/10.png)
+Now checking if the user rafsan_cloud exist.
+__command:__
+
+```
+cat /etc/passwd | grep rafsan_cloud
+```
+__Result:__
+![](img/8.1.png)
+Verifying welcome.txt
+```
+sudo cat /home/rafsan_cloud/welcome.txt
+```
+__Result:__
+![](img/8.2.png)
+
+Using sudo because the file was created by root and was accessable by rafsan_cloud.
+![](img/8.3.png)
+
+created a folder in the host machine named "host_machine" and created another folder in instance called "shared_folder". then mounted the folder on the host machine using:
+
+```
+sudo multipass mount ~/host_machine cloud-init:/home/ubuntu/shared_folder
 ```
