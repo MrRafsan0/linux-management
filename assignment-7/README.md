@@ -269,8 +269,3 @@ snap list | grep my-snap
 #### Challenges Faced
 - **Dependency Issues**: Had to install missing dependencies manually.
 - **Permissions**: Required `--dangerous` flag to install locally built snaps.
-
----
-
-This document covers the required practical exercises for LXD, Docker, and Snapcraft, along with installation steps, experiments, and challenges encountered.
-
